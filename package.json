@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-mocha-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cazuba/nodejs-mocha-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cazuba/nodejs-mocha-tests/issues"
+  },
+  "homepage": "https://github.com/cazuba/nodejs-mocha-tests#readme",
+  "dependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0"
+  }
+}
